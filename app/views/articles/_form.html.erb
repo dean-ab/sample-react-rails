@@ -1,0 +1,4 @@
+
+<%= form_with model: @article, local: true do |form| %>
+  <%= react_component('articles-form', { action: params[:action], title: @article.title, text: @article.text }) %>
+<% end %>

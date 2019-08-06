@@ -14,3 +14,10 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+document.addEventListener('DOMContentLoaded', function(event) {
+    const styleElement = document.querySelector(
+        'body style[data-styled-components]'
+    )
+    document.head.appendChild(styleElement)
+})
