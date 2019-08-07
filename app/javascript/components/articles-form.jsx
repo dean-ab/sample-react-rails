@@ -7,7 +7,7 @@ const ArticlesForm = ({ title, text }) => {
   return (
     <div>
       <p>
-        <label htmlFor="title">Title</label>
+        <label>Title</label>
         <input
           type="text"
           name="article[title]"
@@ -16,7 +16,7 @@ const ArticlesForm = ({ title, text }) => {
         />
       </p>
       <p>
-        <label htmlFor="title">Text</label>
+        <label>Text</label>
         <input
           type="textarea"
           name="article[text]"
